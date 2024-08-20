@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(204, 204, 204);
+	margin: 0;
+}
+.text-center {
+	text-align: center;
+}
+.song-list {
+	margin: 0;
+}
+.song-list li {
+	list-style: none;
+}
+.song-list li a {
+	text-decoration: none;
+	color: #000;
+}
+.border-box {
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+.border-box video, .border-box audio {
+	width: 100%;
+}
