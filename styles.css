@@ -19,12 +19,11 @@ body {
 	text-decoration: none;
 	color: #000;
 }
-.border-box {
+.border-box, .player_one, .player_two {
 	padding: 15px;
-	background: #fff;
-	border: 1px solid #000;
+	background-color: rgba(255,255,255);
 	border-radius: 10px;
 }
-.border-box video, .border-box audio {
+.player_one, .player_two {
 	width: 100%;
 }
